@@ -6,13 +6,13 @@
 :root {
     --primary-light: #85d5ff;
     --primary-dark-blue: #1e2a3f;
-    --primary-sea-green: #03757c;
+    --primary-sea-green: #00cfda;
     --background-soft: #d4f1f7;
     --background-muted: #e8fafc;
     --accent-hover: #058fa6;
     --highlight-green: #2ca089;
     --soft-green: #81de85;
-    --sky-blue-shade: #009acb;
+    --sky-blue-shade: #003545;
 
     --darkmode-bg-main: #282828;
     --darkmode-highlight: #33363b;
@@ -269,12 +269,15 @@ footer p {
 }
 
 footer a {
-    color: var(--primary-sea-green);
+    color: var(--primary-dark-blue);
 }
 
 @media (prefers-color-scheme: dark) {
     footer {
         background-color: var(--darkmode-deep-bg);
+        color: var(--primary-light);
+    }
+    footer a {
         color: var(--primary-light);
     }
     footer a:hover {
